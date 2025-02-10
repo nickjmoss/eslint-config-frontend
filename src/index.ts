@@ -1,3 +1,3 @@
-import eslintConfigBackend from './eslint.config.frontend';
+import eslintConfigFrontend from './eslint.config.frontend';
 
-export { eslintConfigBackend };
+export { eslintConfigFrontend };
