@@ -1,0 +1,35 @@
+{
+    "name": "@nickjmoss/eslint-config-frontend",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nickjmoss/eslint-config-fronted.git"
+    },
+    "type": "module",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "devDependencies": {
+        "@types/bun": "latest",
+        "ajv": "^8.17.1",
+        "typescript": "^5.7.3",
+        "vite": "^6.1.0",
+        "vite-plugin-dts": "^4.5.0"
+    },
+    "peerDependencies": {
+        "@eslint/js": "^9.20.0",
+        "@typescript-eslint/eslint-plugin": "^8.24.0",
+        "@typescript-eslint/parser": "^8.24.0",
+        "@vue/eslint-config-typescript": "^14.4.0",
+        "eslint": "^9.20.0",
+        "eslint-plugin-prettier": "^5.2.3",
+        "eslint-plugin-vue": "^9.32.0",
+        "prettier": "^3.5.0",
+        "vue-eslint-parser": "^9.4.3"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "vite build"
+    }
+}
